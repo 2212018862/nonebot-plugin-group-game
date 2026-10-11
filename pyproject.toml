@@ -1,0 +1,29 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "nonebot-plugin-group-game"
+version = "0.1.0"
+description = "NoneBot2 微信群互动小游戏合集：签到、打劫、收小弟打工、商店、银行、刮刮乐、成语接龙等"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "yz" }]
+keywords = ["nonebot", "nonebot2", "nonebot-plugin", "game", "wechat", "群互动", "游戏"]
+dependencies = ["nonebot2>=2.4.0", "nonebot-adapter-onebot>=2.4.0"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Communications :: Chat",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/2212018862/nonebot-plugin-group-game"
+Issues = "https://github.com/2212018862/nonebot-plugin-group-game/issues"
+
+[tool.hatch.build.targets.wheel]
+packages = ["nonebot_plugin_group_game"]
