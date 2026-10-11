@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "nonebot-plugin-group-game"
-version = "0.1.0"
+version = "0.1.1"
 description = "NoneBot2 微信群互动小游戏合集：签到、打劫、收小弟打工、商店、银行、刮刮乐、成语接龙等"
 readme = "README.md"
 requires-python = ">=3.10"

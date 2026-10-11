@@ -21,7 +21,7 @@ __plugin_meta__ = PluginMetadata(
     usage="发送「游戏帮助」查看全部指令；裸发指令即可触发（COMMAND_START 需含空串）",
     type="application",
     homepage="https://github.com/2212018862/nonebot-plugin-group-game",
-    supported_adapters={"onebot.v12"},
+    supported_adapters={"~onebot.v12"},
     extra={"author": "yz", "priority": 5},
 )
 
